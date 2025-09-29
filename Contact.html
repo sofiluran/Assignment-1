@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styles/assignment.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header_title">Contact</h1>
+        <div class="sub-title">Skål Stockholm</div>
+    </header>
+    
+    <nav class="menu">
+        <a href="./assignment.html" class="menu_item">Home</a>
+        <a href="./Södermalm.html" class="menu_item">Södermalm</a>
+        <a href="./Kungsholmen.html" class="menu_item">Kungsholmen</a>
+        <a href="./Gamlastan.html" class="menu_item">Gamla Stan</a>
+        <a href="./Vasastan.html" class="menu_item">Vasastan</a>
+        <a href="./Contact.html" class="menu_item active">Contact</a>
+    </nav>
+
+    <div class="contact-info">
+        <h1>Contact Us:</h1>
+        <h3>Do you want to get in contact with us? Or do you have any tips on where to have a pint? Please write to us! </h3>
+    </div>
+
+    <main class="main">
+
+        <form action="mailto: skal-stockholm@gmail.com" method="POST" enctype="text/plain" class="user-information">
+            <fieldset>
+                <legend>Contact us</legend>
+
+                <div class="user-input">
+                    <label for="name">What is your name?</label>
+                    <input type="text" name="name" id="name" placeholder="Write here" required>
+                </div>
+
+                <div class="user-input">
+                    <label for="email">What is your E-mail?</label>
+                    <input type="emal" name="email" id="email" placeholder="Write here" required>
+                </div>
+
+                <div>
+                    <label for="question">What is your question?</label>
+                    <textarea name="question" id="question" placeholder="What's on your mind?" required></textarea>
+                </div>
+
+                <div>
+                    <label for="confirm">I like beer </label>
+                    <input type="checkbox" name="confirm" id="confirm" required>
+                </div>
+
+
+            </fieldset>
+
+            <button class="submit">Send!</button>
+
+        </form>
+
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; Skål Stockholm</p>
+    </footer>
+
+</body>
+</html>

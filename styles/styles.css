@@ -1,0 +1,44 @@
+.contact-info {
+    background-color: #FDE3AF;
+    border-radius: 20px;
+    margin: 20px;
+    margin-bottom: -20px;
+    padding: 16px;
+    text-align: center;
+}
+
+fieldset {
+    border-color: #F55536;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.user-information {
+    background-color: #FF773D;
+    border-radius: 20px;
+    margin-top: 24px;
+    padding: 16px;
+}
+
+.user-input {
+    padding: 16px;
+}
+
+.submit {
+    background-color: #FDE3AF;
+    border: 1px solid #FDE3AF;
+    border-radius: 10px;
+    color: #391C04;
+    cursor: pointer;
+    padding: 10px 16px; 
+}
+
+.submit:hover {
+    background-color: #FABC3C;
+    border: 1px solid #FABC3C;
+}
+
+textarea { 
+    height: 200px;
+    width: 80%;
+}
